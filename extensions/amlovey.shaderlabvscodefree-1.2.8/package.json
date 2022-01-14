@@ -1,0 +1,73 @@
+{
+	"name": "shaderlabvscodefree",
+	"displayName": "ShaderlabVSCode(Free)",
+	"description": "Visual Studio Code Plugin for Unity Shaderlab programming",
+	"version": "1.2.8",
+	"publisher": "amlovey",
+	"icon": "images/LOGO.png",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"repository": {},
+	"categories": [
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onLanguage:shaderlab"
+	],
+	"main": "./out/src/main",
+	"scripts": {
+		"vscode:prepublish": "sh ./compile.sh",
+		"vscode:prepublish1": "tsc -P ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"json": "copyfiles src/**/*.json out/"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "shaderlab",
+				"aliases": [
+					"Shaderlab",
+					"shaderlab"
+				],
+				"extensions": [
+					".shader",
+					".cginc",
+					".glslinc",
+					".compute",
+					".cg",
+					".hlsl"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "shaderlab",
+				"scopeName": "source.shader",
+				"path": "./syntaxes/shaderlab.tmLanguage.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.41",
+		"@types/node": "^8.0.4",
+		"copyfiles": "^1.2.0",
+		"mocha": "^3.4.2",
+		"typescript": "^2.9.2",
+		"vscode": "^1.1.37"
+	},
+	"dependencies": {
+		"@types/axios": "^0.14.0",
+		"axios": "^0.21.0",
+		"opn": "^6.0.0"
+	},
+	"__metadata": {
+		"id": "f53f2128-212d-491d-8640-c6e59cf5c08c",
+		"publisherId": "c1b5b3d7-110e-490b-b43f-1c94016defcf",
+		"publisherDisplayName": "amlovey",
+		"installedTimestamp": 1633985890756
+	}
+}

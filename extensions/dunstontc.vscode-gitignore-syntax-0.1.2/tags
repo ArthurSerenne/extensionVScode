@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/96ceef6/
+$schema	syntaxes/gitignore.tmLanguage.json	/^    "$schema": "https:\/\/raw.githubusercontent.com\/martinring\/tmlanguage\/master\/tmlanguage./;"	s
+0	.vscode/launch.json	/^            "args": ["--extensionDevelopmentPath=${workspaceRoot}" ]$/;"	s	array:configurations.0.args
+0	.vscode/launch.json	/^        {$/;"	o	array:configurations
+0	language-configuration.json	/^        ["[", "]"],$/;"	a	array:autoClosingPairs
+0	language-configuration.json	/^        ["[", "]"],$/;"	a	array:brackets
+0	language-configuration.json	/^        ["[", "]"],$/;"	a	array:surroundingPairs
+0	language-configuration.json	/^        ["[", "]"],$/;"	s	array:autoClosingPairs.0
+0	language-configuration.json	/^        ["[", "]"],$/;"	s	array:brackets.0
+0	language-configuration.json	/^        ["[", "]"],$/;"	s	array:surroundingPairs.0
+0	package.json	/^                    "gitignore",$/;"	s	array:contributes.languages.0.aliases
+0	package.json	/^                    "gitignore",$/;"	s	array:contributes.languages.0.extensions
+0	package.json	/^            {$/;"	o	array:contributes.grammars
+0	package.json	/^            {$/;"	o	array:contributes.languages
+0	package.json	/^        "Programming Languages"$/;"	s	array:categories
+0	syntaxes/gitignore.tmLanguage.json	/^                {$/;"	o	array:repository.constant.patterns
+0	syntaxes/gitignore.tmLanguage.json	/^                {$/;"	o	array:repository.keywords.patterns
+0	syntaxes/gitignore.tmLanguage.json	/^                {$/;"	o	array:repository.punctuation.patterns
+0	syntaxes/gitignore.tmLanguage.json	/^            {$/;"	o	array:repository.variable.patterns
+0	syntaxes/gitignore.tmLanguage.json	/^        {$/;"	o	array:patterns
+1	language-configuration.json	/^        ["[", "]"],$/;"	s	array:autoClosingPairs.0
+1	language-configuration.json	/^        ["[", "]"],$/;"	s	array:brackets.0
+1	language-configuration.json	/^        ["[", "]"],$/;"	s	array:surroundingPairs.0
+1	package.json	/^                    ".gitignore"$/;"	s	array:contributes.languages.0.extensions
+1	package.json	/^                    "Gitignore"$/;"	s	array:contributes.languages.0.aliases
+1	syntaxes/gitignore.tmLanguage.json	/^                {$/;"	o	array:repository.keywords.patterns
+1	syntaxes/gitignore.tmLanguage.json	/^                {$/;"	o	array:repository.punctuation.patterns
+1	syntaxes/gitignore.tmLanguage.json	/^        {$/;"	o	array:patterns
+2	syntaxes/gitignore.tmLanguage.json	/^                {$/;"	o	array:repository.keywords.patterns
+2	syntaxes/gitignore.tmLanguage.json	/^        {$/;"	o	array:patterns
+3	syntaxes/gitignore.tmLanguage.json	/^        {$/;"	o	array:patterns
+4	syntaxes/gitignore.tmLanguage.json	/^        {$/;"	o	array:patterns
+aliases	package.json	/^                "aliases": [$/;"	a	object:contributes.languages.0
+args	.vscode/launch.json	/^            "args": ["--extensionDevelopmentPath=${workspaceRoot}" ]$/;"	a	object:configurations.0
+autoClosingPairs	language-configuration.json	/^    "autoClosingPairs": [$/;"	a
+begin	syntaxes/gitignore.tmLanguage.json	/^            "begin": "#+\\\\s?",$/;"	s	object:repository.comment
+brackets	language-configuration.json	/^    "brackets": [$/;"	a
+categories	package.json	/^    "categories": [$/;"	a
+color	package.json	/^      "color": "#569cd6",$/;"	s	object:galleryBanner
+comment	syntaxes/gitignore.tmLanguage.json	/^        "comment": {$/;"	o	object:repository
+comments	language-configuration.json	/^    "comments": {$/;"	o
+configuration	package.json	/^                "configuration": ".\/language-configuration.json"$/;"	s	object:contributes.languages.0
+configurations	.vscode/launch.json	/^    "configurations": [$/;"	a
+constant	syntaxes/gitignore.tmLanguage.json	/^        "constant": {$/;"	o	object:repository
+contributes	package.json	/^    "contributes": {$/;"	o
+description	package.json	/^    "description": "Syntax highlighting for .gitignore files.",$/;"	s
+displayName	package.json	/^    "displayName": "vscode-gitignore-syntax",$/;"	s
+end	syntaxes/gitignore.tmLanguage.json	/^            "end": "$",$/;"	s	object:repository.comment
+engines	package.json	/^    "engines": {$/;"	o
+extensions	package.json	/^                "extensions": [$/;"	a	object:contributes.languages.0
+galleryBanner	package.json	/^    "galleryBanner": {$/;"	o
+grammars	package.json	/^        "grammars": [$/;"	a	object:contributes
+icon	package.json	/^    "icon": "assets\/gitignore.png",$/;"	s
+id	package.json	/^                "id": "gitignore",$/;"	s	object:contributes.languages.0
+include	syntaxes/gitignore.tmLanguage.json	/^            "include": "#comment"$/;"	s	object:patterns.0
+include	syntaxes/gitignore.tmLanguage.json	/^            "include": "#constant"$/;"	s	object:patterns.1
+include	syntaxes/gitignore.tmLanguage.json	/^            "include": "#keywords"$/;"	s	object:patterns.2
+include	syntaxes/gitignore.tmLanguage.json	/^            "include": "#punctuation"$/;"	s	object:patterns.3
+include	syntaxes/gitignore.tmLanguage.json	/^            "include": "#variable"$/;"	s	object:patterns.4
+keywords	syntaxes/gitignore.tmLanguage.json	/^        "keywords": {$/;"	o	object:repository
+language	package.json	/^                "language": "gitignore",$/;"	s	object:contributes.grammars.0
+languages	package.json	/^        "languages": [$/;"	a	object:contributes
+license	package.json	/^    "license": "MIT",$/;"	s
+lineComment	language-configuration.json	/^        "lineComment": "#",$/;"	s	object:comments
+match	syntaxes/gitignore.tmLanguage.json	/^                    "match": "((\\\\?|\\\\*){1})"$/;"	s	object:repository.keywords.patterns.1
+match	syntaxes/gitignore.tmLanguage.json	/^                    "match": "([!])"$/;"	s	object:repository.keywords.patterns.2
+match	syntaxes/gitignore.tmLanguage.json	/^                    "match": "(\\\\*{2})"$/;"	s	object:repository.keywords.patterns.0
+match	syntaxes/gitignore.tmLanguage.json	/^                    "match": "(\\\\[)"$/;"	s	object:repository.punctuation.patterns.0
+match	syntaxes/gitignore.tmLanguage.json	/^                    "match": "(])"$/;"	s	object:repository.punctuation.patterns.1
+match	syntaxes/gitignore.tmLanguage.json	/^                    "match": "\\\\\\\\[#*!? ]"$/;"	s	object:repository.constant.patterns.0
+match	syntaxes/gitignore.tmLanguage.json	/^                "match": "(?<=\\\\[)([a-zA-Z0-9.\\\\-_]+)(?=\\\\])"$/;"	s	object:repository.variable.patterns.0
+name	.vscode/launch.json	/^            "name": "Extension",$/;"	s	object:configurations.0
+name	package.json	/^    "name": "vscode-gitignore-syntax",$/;"	s
+name	syntaxes/gitignore.tmLanguage.json	/^                    "name": "constant.character.escape",$/;"	s	object:repository.constant.patterns.0
+name	syntaxes/gitignore.tmLanguage.json	/^                    "name": "keyword.control.glob.gitignore",$/;"	s	object:repository.keywords.patterns.0
+name	syntaxes/gitignore.tmLanguage.json	/^                    "name": "keyword.control.negation.gitignore",$/;"	s	object:repository.keywords.patterns.2
+name	syntaxes/gitignore.tmLanguage.json	/^                    "name": "keyword.control.wildcard.gitignore",$/;"	s	object:repository.keywords.patterns.1
+name	syntaxes/gitignore.tmLanguage.json	/^                    "name": "punctuation.definition.variable.begin.gitignore",$/;"	s	object:repository.punctuation.patterns.0
+name	syntaxes/gitignore.tmLanguage.json	/^                    "name": "punctuation.definition.variable.end.gitignore",$/;"	s	object:repository.punctuation.patterns.1
+name	syntaxes/gitignore.tmLanguage.json	/^                "name": "variable.other.range",$/;"	s	object:repository.variable.patterns.0
+name	syntaxes/gitignore.tmLanguage.json	/^            "name": "comment.line.gitignore",$/;"	s	object:repository.comment
+name	syntaxes/gitignore.tmLanguage.json	/^    "name": "gitignore",$/;"	s
+path	package.json	/^                "path": ".\/syntaxes\/gitignore.tmLanguage.json"$/;"	s	object:contributes.grammars.0
+patterns	syntaxes/gitignore.tmLanguage.json	/^            "patterns": [$/;"	a	object:repository.constant
+patterns	syntaxes/gitignore.tmLanguage.json	/^            "patterns": [$/;"	a	object:repository.keywords
+patterns	syntaxes/gitignore.tmLanguage.json	/^            "patterns": [$/;"	a	object:repository.punctuation
+patterns	syntaxes/gitignore.tmLanguage.json	/^            "patterns": []$/;"	a	object:repository.comment
+patterns	syntaxes/gitignore.tmLanguage.json	/^          "patterns": [$/;"	a	object:repository.variable
+patterns	syntaxes/gitignore.tmLanguage.json	/^    "patterns": [$/;"	a
+publisher	package.json	/^    "publisher": "dunstontc",$/;"	s
+punctuation	syntaxes/gitignore.tmLanguage.json	/^        "punctuation": {$/;"	o	object:repository
+repository	package.json	/^    "repository": {$/;"	o
+repository	syntaxes/gitignore.tmLanguage.json	/^    "repository": {$/;"	o
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+runtimeExecutable	.vscode/launch.json	/^            "runtimeExecutable": "${execPath}",$/;"	s	object:configurations.0
+scopeName	package.json	/^                "scopeName": "source.gitignore",$/;"	s	object:contributes.grammars.0
+scopeName	syntaxes/gitignore.tmLanguage.json	/^    "scopeName": "source.gitignore",$/;"	s
+surroundingPairs	language-configuration.json	/^    "surroundingPairs": [$/;"	a
+theme	package.json	/^      "theme": "dark"$/;"	s	object:galleryBanner
+type	.vscode/launch.json	/^            "type": "extensionHost",$/;"	s	object:configurations.0
+type	package.json	/^      "type": "git",$/;"	s	object:repository
+url	package.json	/^      "url": "https:\/\/github.com\/dunstontc\/vscode-gitignore-syntax.git"$/;"	s	object:repository
+variable	syntaxes/gitignore.tmLanguage.json	/^        "variable": {$/;"	o	object:repository
+version	.vscode/launch.json	/^    "version": "0.1.0",$/;"	s
+version	package.json	/^    "version": "0.1.1",$/;"	s
+vscode	package.json	/^        "vscode": "^1.20.0"$/;"	s	object:engines

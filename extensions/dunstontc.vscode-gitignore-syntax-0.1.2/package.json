@@ -1,0 +1,52 @@
+{
+	"name": "vscode-gitignore-syntax",
+	"displayName": "vscode-gitignore-syntax",
+	"description": "Syntax highlighting for .gitignore files.",
+	"version": "0.1.2",
+	"publisher": "dunstontc",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dunstontc/vscode-gitignore-syntax.git"
+	},
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"galleryBanner": {
+		"color": "#569cd6",
+		"theme": "dark"
+	},
+	"icon": "assets/gitignore.png",
+	"contributes": {
+		"languages": [
+			{
+				"id": "gitignore",
+				"aliases": [
+					"gitignore",
+					"Gitignore"
+				],
+				"extensions": [
+					"gitignore",
+					".gitignore"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "gitignore",
+				"scopeName": "source.gitignore",
+				"path": "./syntaxes/gitignore.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e3980348-1f02-4f6a-ad49-e8ebcd2b2a4e",
+		"publisherId": "564ecb85-8c09-42fc-b2da-902737b2e743",
+		"publisherDisplayName": "dunstontc",
+		"installedTimestamp": 1634220083055
+	}
+}

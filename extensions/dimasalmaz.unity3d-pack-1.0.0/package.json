@@ -1,0 +1,32 @@
+{
+	"name": "unity3d-pack",
+	"displayName": "unity3d-pack",
+	"description": "A set of extensions to work with Unity3D.",
+	"version": "1.0.0",
+	"publisher": "dimasalmaz",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionDependencies": [
+		"jorgeserrano.vscode-csharp-snippets",
+		"k--kato.docomment",
+		"Leopotam.csharpfixformat",
+		"kleber-swf.unity-code-snippets",
+		"ms-vscode.csharp",
+		"slevesque.shader",
+		"Tobiah.unity-tools",
+		"Unity.unity-debug",
+		"amlovey.shaderlabvscodefree",
+		"patrys.vscode-code-outline"
+	],
+	"icon": "image.png",
+	"__metadata": {
+		"id": "72bdc719-85c3-4ef4-a960-6dc1978b45ac",
+		"publisherId": "6ecf95ba-0e8e-43e4-bb4b-0a57066d20bf",
+		"publisherDisplayName": "Molosnic Dumitru",
+		"installedTimestamp": 1633987176493
+	}
+}
